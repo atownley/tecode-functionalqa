@@ -1,0 +1,27 @@
+README for FunctionalQA
+=======================
+
+This is a basic library for performing functional testing of external
+programs.  It is not a unit testing framework like Test::Unit or
+JUnit, but is designed to test the functional characteristics of a
+component from the outside.  This is often known as "black box" style
+testing, where most unit testing is "white box" style.
+
+The design of this framework is somewhat influenced by Segue Software's
+functional testing tools, QA Partner and SilkTest, but only in the
+high level concepts.  The last time I actually worked with these tools
+was in 2000, so I'm sure the similarities are only superficial at
+best.  Also, a lot of what's here has been influenced by earlier work
+I did in providing an object-oriented implementation of the QA
+Partner/SilkTest recovery system.  This work was originall presented
+at the 1998 Segue User Conference, so it is not proprietary
+information to either Segue or to Informix (now IBM) who was my
+employer at this time.
+
+To use this module, check it out somewhere and add this directory to
+your RUBYLIB search path.  For examples (which don't rely on having
+RUBYLIB set correctly), look in the demo directory.
+
+NOTE:  As of 2005-09-26 this is still very much a work in progress.
+
+$Id: README,v 1.1 2005/09/26 01:52:51 atownley Exp $
